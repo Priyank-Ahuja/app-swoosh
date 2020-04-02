@@ -13,10 +13,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+
     }
 
     @IBOutlet weak var swoosh: UIImageView!
     @IBOutlet weak var BgImg: UIImageView!
     
+    @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue){
+        
+    }
 }
 
